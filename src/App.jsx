@@ -1,7 +1,10 @@
+import Grid from "./components/grid/Grid";
+import "./App.css";
 const App = () => {
+
   return (
     <>
-      <h1>Tic Tac Toe</h1>
+      <Grid numberOfCards={9} />
     </>
   );
 };
